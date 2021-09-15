@@ -65,14 +65,14 @@ img {
   height: auto;
 }
 
-.header-container {
+#header-container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
 }
 
-.header-text {
+#header-text-container {
   width: 35%;
   margin: 0px;
   padding-right: 40px;
@@ -80,7 +80,6 @@ img {
 
 
 figure img {
-  min-width: 20%;
   height: 200px;
 }
 
