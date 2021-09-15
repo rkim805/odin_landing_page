@@ -7,12 +7,12 @@ html, body{
 body {
   display: flex;
   flex-flow: column nowrap;
+  font-family: 'Roboto', sans-serif; 
 }
 
 header, footer {
   background-color: #1F2937;
   color: #F9FAF8;
-  font-family: 'Roboto', sans-serif; 
 }
 
 header{
@@ -89,6 +89,13 @@ button {
   padding: 10px 30px;
   color: white;
   border-radius: 10px;
-  font-weight: 30px;
-  font-family:
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
 }
