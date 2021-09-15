@@ -60,7 +60,8 @@ header p {
 }
 
 img {
-  width: 37.5%;
+  flex: 1;
+  max-width: 40%;
   height: auto;
 }
 
@@ -74,6 +75,7 @@ img {
 .header-text {
   width: 35%;
   margin: 0px;
+  padding-right: 40px;
 }
 
 figure img {
