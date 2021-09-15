@@ -78,9 +78,14 @@ img {
   padding-right: 40px;
 }
 
+
 figure img {
-  width: 15%;
-  height: auto;
+  min-width: 20%;
+  height: 200px;
+}
+
+figure {
+  flex: none;
 }
 
 button {
@@ -98,4 +103,11 @@ h2 {
   font-weight: 900;
   color: #1F2937;
   text-align: center;
+}
+
+#figure-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
