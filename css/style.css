@@ -79,12 +79,20 @@ img {
 }
 
 
+/*limit height of image so figures vertical alignment is even*/
 figure img {
   height: 200px;
+  border-color: #345ea3;
+  border-style: solid;
+  border-width: 7px;
+  border-radius: 10px;
 }
 
+
+/*limit width of figure so that figcaptions are under images*/
 figure {
   flex: none;
+  width: 300px;
 }
 
 button {
