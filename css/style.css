@@ -5,8 +5,6 @@ html, body{
 }
 
 body {
-  display: flex;
-  flex-flow: column nowrap;
   font-family: 'Roboto', sans-serif; 
 }
 
@@ -78,21 +76,18 @@ img {
   padding-right: 40px;
 }
 
-
-/*limit height of image so figures vertical alignment is even*/
 figure img {
-  height: 200px;
+  height: 200px; 
+  /*limit height of image so figures vertical alignment is even*/
   border-color: #345ea3;
   border-style: solid;
   border-width: 7px;
   border-radius: 10px;
 }
 
-
-/*limit width of figure so that figcaptions are under images*/
 figure {
   flex: none;
-  width: 300px;
+  width: 300px; /*limit width of figure so that figcaptions are under images*/
 }
 
 button {
@@ -117,4 +112,23 @@ h2 {
   text-align: center;
   justify-content: center;
   flex-flow: row wrap;
+  margin-bottom: 7.5%;
+}
+
+#quote-section{
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1F2937;
+  padding: 5% 30%;
+}
+
+#em {
+  width: 200px;
+}
+
+#quote-section p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
 }
