@@ -132,3 +132,39 @@ h2 {
   font-weight: bold;
   text-align: right;
 }
+
+#signup-section {
+  padding: 5% 5%;
+}
+
+
+/*Blue portion of the signup section*/
+#signup-container{
+  background-color: #3882F6;
+  padding: 50px 30px;
+  border-radius: 15px;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#signup-section button {
+  border-style: solid;
+}
+
+#signup-prompt {
+  font-weight: 800;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+#signup-section p {
+  margin: 0px;
+  padding: 0px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 0px;
+}
